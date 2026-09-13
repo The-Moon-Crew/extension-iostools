@@ -15,12 +15,12 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Haxe
-        uses: krdlab/setup-haxe@v1
-        with:
-          haxe-version: 4.3.4
+      - name: Install Haxe via Homebrew
+        run: |
+          brew update
+          brew install haxe
 
-      - name: Install Haxe Libraries
+      - name: Setup Haxelib and Dependencies
         run: |
           haxelib setup ~/haxelib
           haxelib install lime --quiet
