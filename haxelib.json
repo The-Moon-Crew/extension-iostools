@@ -1,0 +1,11 @@
+{
+  "name": "extension-iostools",
+  "url": "https://github.com/The-Moon-Crew/extension-iostools",
+  "license": "MIT",
+  "tags": ["haxe", "ios", "extension", "native", "permissions", "tools"],
+  "description": "Haxe native extension providing iOS utilities, device permissions management, and native system integration.",
+  "version": "0.0.1",
+  "releasenotes": "Initial setup of extension-iostools library metadata.",
+  "contributors": ["The-Moon-Crew"],
+  "dependencies": {}
+}
